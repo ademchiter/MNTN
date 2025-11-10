@@ -6,6 +6,13 @@
     margin: 0;
 }
 
+/*
+body{
+background-image: url(asset/banniere.jpg);
+background-repeat: no-repeat;
+}
+/*
+
 /* Les classes fonctionelles flex box */
 
 .flex {
@@ -51,7 +58,7 @@
 
 /* GAP */
 .gap-12 {
-    gap: 12 px;
+    gap: 12px;
 }
 
 /*  les classes de largeur */
@@ -66,4 +73,31 @@
 
 .w-33{
     width: 33%;
+}
+
+a{
+    text-decoration: none;
+}
+
+ul li{
+list-style-type: none;
+}
+
+
+.padding-top-20 {
+    padding-top: 20px;
+}
+
+
+.padding-top-60{
+
+   padding-top: 60px; 
+}
+
+h2{
+   font-family: "Josefin Sans", sans-serif;
+}
+
+h1{
+    font-family: "Andada Pro", serif;
 }
