@@ -8,10 +8,11 @@
 
 /*
 body{
-background-image: url(asset/banniere.jpg);
+background-image: url(asset/banniere3.png);
 background-repeat: no-repeat;
 }
 /*
+
 
 /* Les classes fonctionelles flex box */
 
@@ -77,6 +78,8 @@ background-repeat: no-repeat;
 
 a{
     text-decoration: none;
+    display: inline-block;
+    color:black;
 }
 
 ul li{
@@ -88,10 +91,13 @@ list-style-type: none;
     padding-top: 20px;
 }
 
+.margin-top-20{
+    margin-top: 20px;
+}
 
-.padding-top-60{
+.margin-top-60{
 
-   padding-top: 60px; 
+   margin-top: 60px; 
 }
 
 h2{
@@ -100,4 +106,30 @@ h2{
 
 h1{
     font-family: "Andada Pro", serif;
+}
+
+header{
+    position:fixed;
+    top:0;
+    left:0;
+}
+
+/* mes élements jaunes */
+.section1 a, .section2 a, .section3 a, h2, footer nav p{
+
+    color: #FBD784;
+}
+
+h3{
+    font-size: 40px;
+}
+
+.tiret{
+    color: #FBD784;
+}
+
+.boxJaune{
+    background-color: #FBD784; 
+    height: 2px;
+    width: 15px;
 }
